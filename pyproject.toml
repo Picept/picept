@@ -4,21 +4,21 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "picept"
-version = "0.1.0"
-description = "AI tracing and observability toolkit"
+version = "0.1.1"
+description = "AI Agent Reliability Platform - Simulate, test, and optimize AI agents"
 readme = "README.md"
-license = {text = "MIT"}  # or whatever license you prefer
+license = {text = "MIT"}
 authors = [
-    {name = "Cyrus Azamfar", email = "your-email@example.com"}  # Replace with your actual email
+    {name = "Cyrus Azamfar", email = "cyrus@picept.ai"}
 ]
 maintainers = [
-    {name = "Cyrus Azamfar", email = "your-email@example.com"}  # Replace with your actual email
+    {name = "Cyrus Azamfar", email = "cyrus@picept.ai"}
 ]
-keywords = ["ai", "tracing", "observability", "opentelemetry", "langchain", "monitoring"]
+keywords = ["ai", "agents", "reliability", "testing", "optimization", "simulation", "failure-detection", "observability"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",  # Match your license choice
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -26,7 +26,10 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Quality Assurance",
     "Topic :: System :: Monitoring",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 requires-python = ">=3.8"
 dependencies = [

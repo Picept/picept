@@ -53,7 +53,6 @@ def init(
     config_id: Optional[str] = None,
     context_id: Optional[str] = None,
     endpoint: str ="http://api.picept.ai:4318/v1/traces",
-    # endpoint: str = "http://localhost:4318/v1/traces",
     api_key: Optional[str] = None,
     integrations: Optional[List[Any]] = None,
     auto_instrument: bool = True,

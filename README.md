@@ -3,13 +3,13 @@
 [![PyPI version](https://badge.fury.io/py/picept.svg)](https://badge.fury.io/py/picept)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-Simulate, test, and optimize AI agents — catch failures before users do and deploy with confidence.
+**AI Agent Reliability Platform** - Simulate, test, and optimize AI agents — catch failures before users do and deploy with confidence.
 
 ## 🎯 What is Picept?
 
-Picept is an AI tracing and observability toolkit that powers **PiMax** - the first failure diagnosis and optimization engine for AI agents. Built from analyzing thousands of real production agent failures, PiMax helps you catch issues before they impact your users.
+Picept is the AI Agent Reliability Platform that helps you build production-ready AI agents. With advanced tracing, failure detection, and optimization capabilities, Picept ensures your agents work reliably in the real world.
 
-## 🚀 Meet PiMax
+## 🚀 Meet PiMax - Powered by Picept
 
 **PiMax** is trained on real agentic failures from production systems, enabling it to:
 
@@ -84,11 +84,17 @@ PiMax detects 20+ distinct failure modes including:
 - **[PiMax Documentation](https://docs.picept.ai)** - Full platform documentation
 - **[Picept Platform](https://picept.ai)** - Try PiMax free
 
-## 🛠️ Why Picept?
+## 🛠️ Why Choose Picept?
 
-Building reliable AI agents is challenging. They fail in unexpected ways - objective drift, tool misreading, context loss that cascades into wrong outputs. Traditional debugging approaches miss the subtle failure modes that emerge in production.
+Building reliable AI agents that work consistently in production is one of the biggest challenges in AI development. Agents fail in unexpected ways - objective drift, tool misreading, context loss that cascades into completely wrong outputs.
 
-Picept solves this by bringing battle-tested failure detection directly to your development process. Instead of learning the hard way through production incidents, leverage PiMax's knowledge to prevent issues before they impact users.
+**Picept is the comprehensive AI Agent Reliability Platform** that transforms how you build, test, and deploy agents:
+
+- **Proactive Failure Detection** - Catch issues before users encounter them
+- **Production-Ready Insights** - Built from analyzing thousands of real agent failures  
+- **Comprehensive Testing** - Simulate, test, and optimize across all failure modes
+- **Platform Agnostic** - Works with any agent framework or custom implementation
+- **Deploy with Confidence** - Ensure your agents work reliably at scale
 
 ## 🤝 Contributing
 
