@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: picept
+Version: 0.1.0
+Summary: AI tracing and observability toolkit
+Requires-Dist: opentelemetry-api>=1.20.0
+Requires-Dist: opentelemetry-sdk>=1.20.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc>=1.20.0
+Requires-Dist: openinference-instrumentation-langchain>=0.1.0
+Requires-Dist: opentelemetry-instrumentation-threading>=0.44b0
+Requires-Dist: opentelemetry-instrumentation-asyncio>=0.44b0
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"

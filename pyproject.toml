@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "picept"
+version = "0.1.0"
+description = "AI tracing and observability toolkit"
+readme = "README.md"
+license = {text = "MIT"}  # or whatever license you prefer
+authors = [
+    {name = "Cyrus Azamfar", email = "your-email@example.com"}  # Replace with your actual email
+]
+maintainers = [
+    {name = "Cyrus Azamfar", email = "your-email@example.com"}  # Replace with your actual email
+]
+keywords = ["ai", "tracing", "observability", "opentelemetry", "langchain", "monitoring"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",  # Match your license choice
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Monitoring",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "opentelemetry-api>=1.20.0",
+    "opentelemetry-sdk>=1.20.0",
+    "opentelemetry-exporter-otlp-proto-grpc>=1.20.0",
+    "openinference-instrumentation-langchain>=0.1.0",
+    "opentelemetry-instrumentation-threading>=0.44b0",
+    "opentelemetry-instrumentation-asyncio>=0.44b0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "mypy"]
+
+[project.urls]
+"Homepage" = "https://picept.ai"
+"Documentation" = "https://docs.picept.ai"
+"Repository" = "https://github.com/Picept/picept"
+"Bug Reports" = "https://github.com/Picept/picept/issues"
+"Source" = "https://github.com/Picept/picept"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
